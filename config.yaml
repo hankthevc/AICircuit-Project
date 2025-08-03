@@ -1,0 +1,17 @@
+openai_api_key: "your_openai_api_key"
+mixtral_model_path: "/local/path/to/mixtral/model"
+niche_detection_frequency_days: 7
+content_generation_frequency_days: 1
+analytics_provider: "plausible"
+adsense_id: "your_google_adsense_id"
+amazon_affiliate_tag: "your_affiliate_tag"
+notification_channel: "email"
+notification_api_key: "your_notification_api_key"
+auto_revision_interval_days: 30
+backup_frequency_days: 7
+blog:
+  title: "AutoBlog Chronicles"
+  author: "AI Ghostwriter"
+  output_dir: "posts"
+  deploy_branch: "gh-pages"
+  repo_url: "https://github.com/hankthevc/Blog-Tool"
