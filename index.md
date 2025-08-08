@@ -12,13 +12,3 @@ Welcome to AutoBlog Chronicles, an AI-powered blog that generates insightful con
 {% for post in site.posts limit:5 %}
 - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
-
-## About
-
-This blog is powered by:
-- OpenAI GPT-4 for content generation
-- GitHub Pages for hosting
-- Jekyll for static site generation
-- Python automation for daily updates
-
-[View on GitHub]({{ site.github.repository_url }}) 
