@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+.DS_Store
+*.pyc
+*.pyo
+*.zip
+*.b64
+posts/
