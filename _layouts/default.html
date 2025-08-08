@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5500691350583798"
+     crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --primary: #00ffe7;
+      --secondary: #1a1a2e;
+      --accent: #ff00cc;
+      --bg: #10101a;
+      --text: #e0e0e0;
+      --header: #23233b;
+      --card: #181828;
+      --shadow: 0 4px 32px 0 rgba(0,255,231,0.08);
+    }
+    html, body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      letter-spacing: 0.01em;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(90deg, var(--header) 60%, var(--accent) 100%);
+      padding: 2rem 0 1rem 0;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+    header h1 {
+      color: var(--primary);
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      margin: 0;
+      text-shadow: 0 2px 24px var(--primary);
+    }
+    main {
+      max-width: 700px;
+      margin: 2.5rem auto 2rem auto;
+      background: var(--card);
+      border-radius: 1.5rem;
+      box-shadow: var(--shadow);
+      padding: 2.5rem 2rem;
+      animation: fadeIn 1.2s cubic-bezier(.4,0,.2,1);
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: none; }
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: var(--accent);
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 1rem;
+      margin: 2rem 0 1rem 0;
+      letter-spacing: 0.04em;
+    }
+    /* Futuristic accent bar */
+    .accent-bar {
+      width: 100px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      margin: 1.5rem auto 2rem auto;
+      border-radius: 2px;
+      box-shadow: 0 0 16px var(--primary);
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { box-shadow: 0 0 16px var(--primary); }
+      to { box-shadow: 0 0 32px var(--accent); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <div class="accent-bar"></div>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }} &mdash; Powered by AI</p>
+  </footer>
+</body>
+</html>
