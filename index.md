@@ -4,9 +4,12 @@ title: Home
 ---
 
 
-# AICircuit Newsroom
 
-> The latest on semiconductors, AI hardware, and the future of compute.
+# The AI Circuit
+
+<div class="blog-intro" style="margin-bottom:2.5rem;font-size:1.15rem;color:#b0eaff;">
+	<strong>The AI Circuit</strong> delivers news, analysis, and deep dives on semiconductors, AI hardware, and the future of compute. Curated by AI, for the next generation of builders and thinkers.
+</div>
 
 <div class="news-grid">
 	<div class="news-item">

@@ -1,5 +1,5 @@
-title: AutoBlog Chronicles
-description: AI-powered blog post generator
+title: The AI Circuit
+description: News and analysis on semiconductors, AI hardware, and the future of compute
 theme: jekyll-theme-primer
 
 # Blog settings
@@ -24,7 +24,7 @@ notification_api_key: "your_notification_api_key"
 auto_revision_interval_days: 30
 backup_frequency_days: 7
 blog:
-  title: "AutoBlog Chronicles"
+  title: "The AI Circuit"
   author: "AI Ghostwriter"
   output_dir: "posts"
   deploy_branch: "gh-pages"
