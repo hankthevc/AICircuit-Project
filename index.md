@@ -43,22 +43,22 @@ title: Home
 		<p class="placeholder">Coming soon...</p>
 	</div>
 	<div class="news-item">
-		<img src="https://images.unsplash.com/photo-1519121782439-2c5f2c2a3b89?auto=format&fit=crop&w=600&q=80" alt="Liquid cooling PC" style="width:100%;border-radius:0.7rem 0.7rem 0 0;max-height:140px;object-fit:cover;">
+		<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Liquid cooling PC" style="width:100%;border-radius:0.7rem 0.7rem 0 0;max-height:140px;object-fit:cover;">
 		<h2>Liquid cooling’s messy middle: cold plates vs. immersion</h2>
 		<p class="placeholder">Coming soon...</p>
 	</div>
 	<div class="news-item">
-		<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Data center cooling" style="width:100%;border-radius:0.7rem 0.7rem 0 0;max-height:140px;object-fit:cover;">
+		<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Data center cooling" style="width:100%;border-radius:0.7rem 0.7rem 0 0;max-height:140px;object-fit:cover;">
 		<h2>Water + AI: the next ESG flashpoint (and the nuclear pivot)</h2>
 		<p class="placeholder">Coming soon...</p>
 	</div>
 	<div class="news-item">
-		<img src="https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=600&q=80" alt="Laboratory glassware" style="width:100%;border-radius:0.7rem 0.7rem 0 0;max-height:140px;object-fit:cover;">
+		<img src="https://images.unsplash.com/photo-1465101054580-8e5f0c0b7e09?auto=format&fit=crop&w=600&q=80" alt="Laboratory glassware" style="width:100%;border-radius:0.7rem 0.7rem 0 0;max-height:140px;object-fit:cover;">
 		<h2>Lithography gases & chemicals: neon/helium/photoresist geopolitics</h2>
 		<p class="placeholder">Coming soon...</p>
 	</div>
 	<div class="news-item">
-		<img src="https://images.unsplash.com/photo-1502767089025-6572583495b4?auto=format&fit=crop&w=600&q=80" alt="Shipping containers" style="width:100%;border-radius:0.7rem 0.7rem 0 0;max-height:140px;object-fit:cover;">
+		<img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80" alt="Shipping containers" style="width:100%;border-radius:0.7rem 0.7rem 0 0;max-height:140px;object-fit:cover;">
 		<h2>Policy whiplash risk: export licenses, China-specific SKUs, and capex planning</h2>
 		<p class="placeholder">Coming soon...</p>
 	</div>
